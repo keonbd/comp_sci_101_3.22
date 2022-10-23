@@ -1,0 +1,15 @@
+user_text = input()
+i = 0
+count = 0
+''' Type your code here. '''
+for i in user_text:
+    count += 1
+    if i == ' ':
+        count -= 1
+    if i == ',':
+        count -= 1
+    if i == '.':
+        count -=1
+    if i == '!':
+        count -= 1
+print(count)
